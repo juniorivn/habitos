@@ -25,7 +25,16 @@ namespace WindowsFormsApplication1
 
         private void btnAvancar_Click(object sender, EventArgs e)
         {
-            lbl1.Visible = true;
+            if (txtNome.Text == "")
+            {
+                lbl1.Visible = true;               
+                lbl1.Text = "Preencha o seu nome acima!";
+            }
+            else
+            {
+                lbl1.Visible = true;
+            }
+            //lbl1.Visible = true;
         }
     }
 }
