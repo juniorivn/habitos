@@ -8,3 +8,8 @@ C:\Users\Jorge Miguel\Documents\GitHub\habitos\WindowsFormsApplication1\obj\Debu
 C:\Users\Jorge Miguel\Documents\GitHub\habitos\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\Users\Jorge Miguel\Documents\GitHub\habitos\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
 C:\Users\Jorge Miguel\Documents\GitHub\habitos\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.perguntas.resources
+C:\Users\Jorge Miguel\Documents\GitHub\habitos\WindowsFormsApplication1\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\Jorge Miguel\Documents\GitHub\habitos\WindowsFormsApplication1\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\Jorge Miguel\Documents\GitHub\habitos\WindowsFormsApplication1\obj\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\Jorge Miguel\Documents\GitHub\habitos\WindowsFormsApplication1\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\Jorge Miguel\Documents\GitHub\habitos\WindowsFormsApplication1\obj\Debug\habitos.csproj.ResolveComReference.cache

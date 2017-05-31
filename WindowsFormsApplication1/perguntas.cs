@@ -25,16 +25,26 @@ namespace WindowsFormsApplication1
 
         private void btnAvancar_Click(object sender, EventArgs e)
         {
-            if (txtNome.Text == "")
-            {
-                lbl1.Visible = true;               
-                lbl1.Text = "Preencha o seu nome acima!";
+            if (txtNome.Text == ""){
+                MessageBox.Show("Insira seu nome!");
             }
-            else
-            {
+            else{
                 lbl1.Visible = true;
+                lbl1.Text = "Você é fumante?";
+                optFumarSim.Visible = true;
+                optFumarNao.Visible = true;
+                grupoPergunta1.Visible = true;
             }
-            //lbl1.Visible = true;
+        }
+
+        private void lbl1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void axShockwaveFlash1_Enter(object sender, EventArgs e)
+        {
+            axShockwaveFlash1.Movie = "http://www.youtube.com/v/JaW1aDog8nQ&autoplay=1";
         }
     }
 }
