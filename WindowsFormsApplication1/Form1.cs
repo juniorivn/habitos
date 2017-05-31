@@ -16,5 +16,18 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+        private void inicioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            perguntas newMDIChild = new perguntas();
+            // Set the Parent Form of the Child window.
+            newMDIChild.MdiParent = this;
+            // Display the new form.
+            newMDIChild.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
