@@ -30,6 +30,8 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dicasSobreMudançasDeHábitosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,10 +47,27 @@
             // 
             // inicioToolStripMenuItem
             // 
+            this.inicioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.sobreToolStripMenuItem,
+            this.dicasSobreMudançasDeHábitosToolStripMenuItem});
             this.inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
-            this.inicioToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
-            this.inicioToolStripMenuItem.Text = "Iniciar";
+            this.inicioToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
+            this.inicioToolStripMenuItem.Text = "Sobre";
             this.inicioToolStripMenuItem.Click += new System.EventHandler(this.inicioToolStripMenuItem_Click);
+            // 
+            // sobreToolStripMenuItem
+            // 
+            this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
+            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(250, 22);
+            this.sobreToolStripMenuItem.Text = "Sobre";
+            this.sobreToolStripMenuItem.Click += new System.EventHandler(this.sobreToolStripMenuItem_Click);
+            // 
+            // dicasSobreMudançasDeHábitosToolStripMenuItem
+            // 
+            this.dicasSobreMudançasDeHábitosToolStripMenuItem.Name = "dicasSobreMudançasDeHábitosToolStripMenuItem";
+            this.dicasSobreMudançasDeHábitosToolStripMenuItem.Size = new System.Drawing.Size(250, 22);
+            this.dicasSobreMudançasDeHábitosToolStripMenuItem.Text = "Dicas sobre mudanças de hábitos";
+            this.dicasSobreMudançasDeHábitosToolStripMenuItem.Click += new System.EventHandler(this.dicasSobreMudançasDeHábitosToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -71,6 +90,8 @@
         #endregion
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem inicioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sobreToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dicasSobreMudançasDeHábitosToolStripMenuItem;
     }
 }
 

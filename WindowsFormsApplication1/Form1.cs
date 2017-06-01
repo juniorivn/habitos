@@ -18,16 +18,29 @@ namespace WindowsFormsApplication1
         }
         private void inicioToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            perguntas newMDIChild = new perguntas();
-            // Set the Parent Form of the Child window.
-            newMDIChild.MdiParent = this;
-            // Display the new form.
-            newMDIChild.Show();
-        }
 
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Sobre about = new Sobre();
+            //Set the Parent Form of the Child window.
+            about.MdiParent = this;
+            // Display the new form.
+            about.Show();
+        }
+
+        private void dicasSobreMudançasDeHábitosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            menu newMDIChild = new menu();
+            //Set the Parent Form of the Child window.
+            newMDIChild.MdiParent = this;
+            // Display the new form.
+            newMDIChild.Show();
         }
     }
 }
